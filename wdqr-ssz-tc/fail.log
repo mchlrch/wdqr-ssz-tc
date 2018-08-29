@@ -1,0 +1,157 @@
+2018-08-29 15:36:47 INFO  DefaultHttpClientFactory:120 - com.bigdata.rdf.sail.webapp.client.DefaultHttpClientFactory.SSLKeystorePath=null
+2018-08-29 15:36:47 DEBUG log:178 - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:36:47 INFO  log:188 - Logging initialized @400ms
+2018-08-29 15:36:47 INFO  DefaultHttpClientFactory:146 - com.bigdata.rdf.sail.webapp.client.DefaultHttpClientFactory.followRedirects=true
+2018-08-29 15:36:47 INFO  DefaultHttpClientFactory:167 - com.bigdata.rdf.sail.webapp.client.DefaultHttpClientFactory.requestBufferSize=16384
+2018-08-29 15:36:47 INFO  DefaultHttpClientFactory:186 - com.bigdata.rdf.sail.webapp.client.DefaultHttpClientFactory.responseBufferSize=16384
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65
+2018-08-29 15:36:47 DEBUG ContainerLifeCycle:324 - com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65 added {SslContextFactory@59a6e353(null,null),AUTO}
+2018-08-29 15:36:47 DEBUG ContainerLifeCycle:324 - com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65 added {HttpClient@1360767589{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+2018-08-29 15:36:47 DEBUG ContainerLifeCycle:324 - com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65 added {org.eclipse.jetty.io.MappedByteBufferPool@2f7a2457,POJO}
+2018-08-29 15:36:47 DEBUG ContainerLifeCycle:324 - com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65 added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@6cd8737,AUTO}
+2018-08-29 15:36:47 DEBUG ContainerLifeCycle:324 - com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65 added {org.eclipse.jetty.client.http.HttpClientTransportOverHTTP@22f71333,AUTO}
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting SslContextFactory@59a6e353(null,null)
+2018-08-29 15:36:47 DEBUG SslContextFactory:255 - No keystore or trust store configured.  ACCEPTING UNTRUSTED CERTIFICATES!!!!!
+2018-08-29 15:36:47 DEBUG SslContextFactory:310 - Enabled Protocols [SSLv2Hello, TLSv1, TLSv1.1, TLSv1.2] of [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2018-08-29 15:36:47 DEBUG SslContextFactory:311 - Enabled Ciphers   [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV] of [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5]
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @549ms SslContextFactory@59a6e353(null,null)
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting HttpClient@1360767589{STOPPED,8<=0<=200,i=0,q=0}
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @554ms HttpClient@1360767589{STARTED,8<=8<=200,i=7,q=0}
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@6cd8737
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @556ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@6cd8737
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting org.eclipse.jetty.client.http.HttpClientTransportOverHTTP@22f71333
+2018-08-29 15:36:47 DEBUG ContainerLifeCycle:324 - org.eclipse.jetty.client.http.HttpClientTransportOverHTTP@22f71333 added {org.eclipse.jetty.client.AbstractHttpClientTransport$ClientSelectorManager@6d00a15d,AUTO}
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting org.eclipse.jetty.client.AbstractHttpClientTransport$ClientSelectorManager@6d00a15d
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@5419f379 keys=-1 selected=-1
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @563ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@5419f379 keys=0 selected=0
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:185 - starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@548a9f61 keys=-1 selected=-1
+2018-08-29 15:36:47 DEBUG SelectorManager:543 - Starting Thread[HttpClient@1360767589-10-selector-ClientSelectorManager@6d00a15d/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@5419f379 keys=0 selected=0
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @565ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@548a9f61 keys=0 selected=0
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @565ms org.eclipse.jetty.client.AbstractHttpClientTransport$ClientSelectorManager@6d00a15d
+2018-08-29 15:36:47 DEBUG SelectorManager:543 - Starting Thread[HttpClient@1360767589-11-selector-ClientSelectorManager@6d00a15d/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@548a9f61 keys=0 selected=0
+2018-08-29 15:36:47 DEBUG SelectorManager:595 - Selector loop waiting on select
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @566ms org.eclipse.jetty.client.http.HttpClientTransportOverHTTP@22f71333
+2018-08-29 15:36:47 DEBUG SelectorManager:595 - Selector loop waiting on select
+2018-08-29 15:36:47 DEBUG AbstractLifeCycle:177 - STARTED @566ms com.bigdata.rdf.sail.webapp.client.AutoCloseHttpClient@511baa65
+2018-08-29 15:36:47 DEBUG HttpClient:488 - Created HttpDestination[https://ld.stadt-zuerich.ch],queue=0,pool=ConnectionPool[c=0/64,a=0,i=0]
+2018-08-29 15:36:47 DEBUG HttpDestination:179 - Queued HttpRequest[GET /query HTTP/1.1]@eec5a4a for HttpDestination[https://ld.stadt-zuerich.ch],queue=1,pool=ConnectionPool[c=0/64,a=0,i=0]
+2018-08-29 15:36:47 DEBUG ConnectionPool:93 - Connection 1/64 creation
+2018-08-29 15:36:47 DEBUG SocketAddressResolver:152 - Resolved ld.stadt-zuerich.ch in 37 ms
+2018-08-29 15:36:47 DEBUG SelectorManager:476 - Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Connect@1e0c9bfb
+2018-08-29 15:36:47 DEBUG SelectorManager:598 - Selector loop woken up from select, 0/0 selected
+2018-08-29 15:36:47 DEBUG SelectorManager:521 - Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Connect@1e0c9bfb
+2018-08-29 15:36:47 DEBUG SelectorManager:595 - Selector loop waiting on select
+2018-08-29 15:36:47 DEBUG SelectorManager:598 - Selector loop woken up from select, 1/1 selected
+2018-08-29 15:36:47 DEBUG AbstractEndPoint:98 - onOpen SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,-,0,null}{io=0,kio=0,kro=8}
+2018-08-29 15:36:47 DEBUG ConnectionPool:101 - Connection 1/64 creation succeeded HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG ConnectionPool:135 - Connection active HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG HttpDestination:97 - Processing exchange HttpExchange@7102d6b2 status=0000 on HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) of HttpDestination[https://ld.stadt-zuerich.ch],queue=0,pool=ConnectionPool[c=1/64,a=1,i=0]
+2018-08-29 15:36:47 DEBUG HttpChannel:50 - HttpExchange@7102d6b2 status=0000 associated to HttpChannelOverHTTP@2bf818eb
+2018-08-29 15:36:47 DEBUG HttpSender:204 - Request begin HttpRequest[GET /query HTTP/1.1]@eec5a4a
+2018-08-29 15:36:47 DEBUG HttpSender:217 - Request headers HttpRequest[GET /query HTTP/1.1]@eec5a4a
+Accept-Encoding: gzip
+Host: ld.stadt-zuerich.ch
+User-Agent: Jetty/9.2.3.v20140905
+2018-08-29 15:36:47 DEBUG HttpContent:133 - Advanced content past last chunk
+2018-08-29 15:36:47 DEBUG WriteFlusher:330 - write: WriteFlusher@19c652fd{IDLE} [HeapByteBuffer@77b28379[p=0,l=108,c=16384,r=108]={<<<GET /query HTTP/1...3.v20140905\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@1[p=0,l=0,c=0,r=0]={<<<>>>}]
+2018-08-29 15:36:47 DEBUG WriteFlusher:118 - update WriteFlusher@19c652fd{WRITING}:IDLE-->WRITING
+2018-08-29 15:36:47 DEBUG AbstractConnection:200 - onOpen SslConnection@44b2eb1e{NEED_WRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:200 - onOpen HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:128 - fillInterested HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - IDLE-->FILL_INTERESTED HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG SslConnection:692 - SslConnection@44b2eb1e{NEED_WRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) flush enter [java.nio.HeapByteBuffer[pos=0 lim=108 cap=16384], java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]]
+2018-08-29 15:36:47 DEBUG SslConnection:714 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/17227,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) wrap Status = OK HandshakeStatus = NEED_UNWRAP
+bytesConsumed = 0 bytesProduced = 181
+2018-08-29 15:36:47 DEBUG SslConnection:760 - DecryptedEndPoint@3590d3be{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,R,W,0,HttpConnectionOverHTTP}->SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=8} OK HeapByteBuffer@dd365ad7[p=0,l=181,c=17408,r=181]={<<<\x80\xB3\x01\x03\x03\x00\x8a\x00\x00\x00 \x00\xC0$\x00\xC0(...0\x9f\x0e\xF4F9K\x81\xEa\xE9\xF2mdi_>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-08-29 15:36:47 DEBUG ChannelEndPoint:188 - flushed 181 SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=8}
+2018-08-29 15:36:47 DEBUG SslConnection:827 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/0,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) flush exit, consumed 0
+2018-08-29 15:36:47 DEBUG WriteFlusher:339 - flushed false
+2018-08-29 15:36:47 DEBUG WriteFlusher:118 - update WriteFlusher@19c652fd{PENDING}:WRITING-->PENDING
+2018-08-29 15:36:47 DEBUG AbstractConnection:128 - fillInterested SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - IDLE-->FILL_INTERESTED SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG SelectChannelEndPoint:136 - Local interests updated 0 -> 1 for SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,R,-,0,SslConnection}{io=1,kio=0,kro=8}
+2018-08-29 15:36:47 DEBUG SelectorManager:521 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@78052acd
+2018-08-29 15:36:47 DEBUG SelectChannelEndPoint:159 - Key interests updated 0 -> 1
+2018-08-29 15:36:47 DEBUG SelectorManager:739 - Created SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,R,-,0,SslConnection}{io=1,kio=1,kro=8}
+2018-08-29 15:36:47 DEBUG SelectorManager:595 - Selector loop waiting on select
+2018-08-29 15:36:47 DEBUG SslConnection:358 - onIncompleteFlush SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,R,-,0,SslConnection}{io=1,kio=1,kro=8}
+2018-08-29 15:36:47 DEBUG AbstractConnection:128 - fillInterested SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - FILL_INTERESTED-->FILL_INTERESTED SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG SelectorManager:598 - Selector loop woken up from select, 1/1 selected
+2018-08-29 15:36:47 DEBUG SelectChannelEndPoint:159 - Key interests updated 1 -> 0
+2018-08-29 15:36:47 DEBUG SelectChannelEndPoint:136 - Local interests updated 1 -> 0 for SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,R,-,0,SslConnection}{io=0,kio=0,kro=1}
+2018-08-29 15:36:47 DEBUG SelectorManager:521 - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@78052acd
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - FILL_INTERESTED-->FILLING SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG SslConnection:177 - onFillable enter DecryptedEndPoint@3590d3be{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,R,W,0,HttpConnectionOverHTTP}->SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=1}
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - FILL_INTERESTED-->FILLING HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG WriteFlusher:384 - completeWrite: WriteFlusher@19c652fd{PENDING}
+2018-08-29 15:36:47 DEBUG HttpParser:1234 - parseNext s=START DirectByteBuffer@89aa687[p=0,l=0,c=16384,r=0]={<<<>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-08-29 15:36:47 DEBUG WriteFlusher:118 - update WriteFlusher@19c652fd{COMPLETING}:PENDING-->COMPLETING
+2018-08-29 15:36:47 DEBUG SslConnection:198 - onFillable exit DecryptedEndPoint@3590d3be{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,W,0,HttpConnectionOverHTTP}->SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=1}
+2018-08-29 15:36:47 DEBUG SslConnection:472 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) fill enter
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - FILLING-->IDLE SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=-1} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG SelectorManager:595 - Selector loop waiting on select
+2018-08-29 15:36:47 DEBUG ChannelEndPoint:142 - filled 7 SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,Open,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=1}
+2018-08-29 15:36:47 DEBUG SslConnection:500 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=7/-1,di=0} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) filled 7 encrypted bytes
+2018-08-29 15:36:47 DEBUG AbstractEndPoint:107 - onClose SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=1}
+2018-08-29 15:36:47 DEBUG ChannelEndPoint:115 - close SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,in,out,-,-,0,SslConnection}{io=0,kio=0,kro=1}
+2018-08-29 15:36:47 DEBUG SelectorManager:746 - Destroyed SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,ISHUT,OSHUT,-,-,0,SslConnection}{io=0,kio=-1,kro=-1}
+2018-08-29 15:36:47 DEBUG AbstractConnection:210 - onClose HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:210 - onClose SslConnection@44b2eb1e{NEED_UNWRAP,eio=0/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractEndPoint:107 - onClose SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,ISHUT,OSHUT,-,-,0,SslConnection}{io=0,kio=-1,kro=-1}
+2018-08-29 15:36:47 DEBUG SslConnection:665 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) fill exit
+2018-08-29 15:36:47 DEBUG SslConnection:692 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) flush enter [java.nio.HeapByteBuffer[pos=0 lim=108 cap=16384], java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]]
+2018-08-29 15:36:47 DEBUG SslConnection:714 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/17408,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) wrap Status = OK HandshakeStatus = NEED_UNWRAP
+bytesConsumed = 0 bytesProduced = 0
+2018-08-29 15:36:47 DEBUG SslConnection:760 - DecryptedEndPoint@3590d3be{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,in,OSHUT,-,W,0,HttpConnectionOverHTTP}->SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,ISHUT,OSHUT,-,-,0,SslConnection}{io=0,kio=-1,kro=-1} OK HeapByteBuffer@3e9ecf56[p=0,l=0,c=17408,r=0]={<<<>>>\x15\x03\x01\x00\x02\x02F\x00\x00\x00 \x00\xC0$\x00\xC0(...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-08-29 15:36:47 DEBUG SslConnection:472 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/0,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) fill enter
+2018-08-29 15:36:47 DEBUG WriteFlusher:384 - completeWrite: WriteFlusher@19c652fd{COMPLETING}
+2018-08-29 15:36:47 DEBUG HttpReceiver:124 - 
+javax.net.ssl.SSLException: Received fatal alert: protocol_version
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:208)
+	at sun.security.ssl.SSLEngineImpl.fatal(SSLEngineImpl.java:1666)
+	at sun.security.ssl.SSLEngineImpl.fatal(SSLEngineImpl.java:1634)
+	at sun.security.ssl.SSLEngineImpl.recvAlert(SSLEngineImpl.java:1800)
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:1083)
+	at sun.security.ssl.SSLEngineImpl.readNetRecord(SSLEngineImpl.java:907)
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:781)
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:624)
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint.fill(SslConnection.java:507)
+	at org.eclipse.jetty.client.http.HttpReceiverOverHTTP.readAndParse(HttpReceiverOverHTTP.java:100)
+	at org.eclipse.jetty.client.http.HttpReceiverOverHTTP.process(HttpReceiverOverHTTP.java:70)
+	at org.eclipse.jetty.client.http.HttpReceiverOverHTTP.receive(HttpReceiverOverHTTP.java:65)
+	at org.eclipse.jetty.client.http.HttpChannelOverHTTP.receive(HttpChannelOverHTTP.java:75)
+	at org.eclipse.jetty.client.http.HttpConnectionOverHTTP.onFillable(HttpConnectionOverHTTP.java:100)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-29 15:36:47 DEBUG SslConnection:665 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/0,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) fill exit
+2018-08-29 15:36:47 DEBUG HttpParser:1555 - close HttpParser{s=START,0 of 0}
+2018-08-29 15:36:47 DEBUG SslConnection:827 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/0,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) flush exit, consumed 0
+2018-08-29 15:36:47 DEBUG WriteFlusher:401 - flushed false
+2018-08-29 15:36:47 DEBUG WriteFlusher:118 - update WriteFlusher@19c652fd{PENDING}:COMPLETING-->PENDING
+2018-08-29 15:36:47 DEBUG SslConnection:358 - onIncompleteFlush SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,ISHUT,OSHUT,-,-,0,SslConnection}{io=0,kio=-1,kro=-1}
+2018-08-29 15:36:47 DEBUG HttpParser:1587 - START --> CLOSED
+2018-08-29 15:36:47 DEBUG AbstractConnection:128 - fillInterested SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - IDLE-->FILL_INTERESTED SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
+2018-08-29 15:36:47 DEBUG SelectChannelEndPoint:149 - Ignoring local interests update 0 -> 0 for SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,ISHUT,OSHUT,R,-,0,SslConnection}{io=0,kio=-1,kro=-1}
+2018-08-29 15:36:47 DEBUG HttpExchange:179 - HttpExchange@7102d6b2 status=0100 updated
+2018-08-29 15:36:47 DEBUG HttpReceiver:444 - Response failure HttpResponse[null 0 null]@26044978 javax.net.ssl.SSLException: Received fatal alert: protocol_version
+2018-08-29 15:36:47 DEBUG HttpReceiver:473 - Response complete HttpResponse[null 0 null]@26044978
+2018-08-29 15:36:47 DEBUG ConnectionPool:189 - Connection removed HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) - pooled: 0
+2018-08-29 15:36:47 DEBUG SslConnection:849 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) shutdownOutput: oshut=true, ishut=false
+2018-08-29 15:36:47 DEBUG HttpConnectionOverHTTP:132 - HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) oshut
+2018-08-29 15:36:47 DEBUG AbstractEndPoint:107 - onClose DecryptedEndPoint@3590d3be{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,in,OSHUT,-,W,0,HttpConnectionOverHTTP}->SelectChannelEndPoint@633b28f{ld.stadt-zuerich.ch/159.100.254.195:443<->50610,CLOSED,ISHUT,OSHUT,R,-,0,SslConnection}{io=0,kio=-1,kro=-1}
+2018-08-29 15:36:47 DEBUG WriteFlusher:450 - failed: WriteFlusher@19c652fd{PENDING} java.nio.channels.ClosedChannelException
+2018-08-29 15:36:47 DEBUG WriteFlusher:118 - update WriteFlusher@19c652fd{IDLE}:PENDING-->IDLE
+2018-08-29 15:36:47 DEBUG SslConnection:849 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) shutdownOutput: oshut=true, ishut=false
+2018-08-29 15:36:47 DEBUG HttpExchange:179 - HttpExchange@7102d6b2 status=0101 updated
+2018-08-29 15:36:47 DEBUG HttpExchange:155 - HttpExchange@7102d6b2 status=0101 terminated
+2018-08-29 15:36:47 DEBUG HttpSender:338 - Request failure HttpExchange@7102d6b2 status=0101 java.nio.channels.ClosedChannelException
+2018-08-29 15:36:47 DEBUG HttpSender:369 - Terminating request HttpRequest[GET /query HTTP/1.1]@eec5a4a
+2018-08-29 15:36:47 DEBUG HttpChannel:64 - HttpExchange@7102d6b2 status=0101 disassociated from HttpChannelOverHTTP@2bf818eb
+2018-08-29 15:36:47 DEBUG HttpSender:389 - Request/Response failed HttpRequest[GET /query HTTP/1.1]@eec5a4a
+2018-08-29 15:36:47 DEBUG SslConnection:849 - SslConnection@44b2eb1e{NEED_UNWRAP,eio=-1/-1,di=17408} -> HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) shutdownOutput: oshut=true, ishut=false
+2018-08-29 15:36:47 DEBUG HttpConnectionOverHTTP:135 - HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443) closed
+2018-08-29 15:36:47 DEBUG AbstractConnection:271 - FILLING-->IDLE HttpConnectionOverHTTP@48e49cd9(l:/192.168.82.159:50610 <-> r:ld.stadt-zuerich.ch/159.100.254.195:443)
