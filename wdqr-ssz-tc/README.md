@@ -2,7 +2,10 @@ Issue:
 * https://phabricator.wikimedia.org/T202785
 
 Testcase:
-* `SparqlEndpointTest` 
+* [`SparqlEndpointTest`](src/test/java/SparqlEndpointTest.java)
+
+Log:
+* [fail.log](fail.log)
 
 jetty.version
 * 9.2.3.v20140905
